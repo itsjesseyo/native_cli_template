@@ -1,4 +1,6 @@
 #!/bin/bash
+chmod +x build.sh
+chmod +x init_project.sh
 #pyenv install python if needed
 # pyenv env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install {{cookiecutter.python_version}}
 #pyenv local this python version
