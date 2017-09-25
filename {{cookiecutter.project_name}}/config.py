@@ -1,5 +1,6 @@
 import sys, json
-import click, py
+import click
+import py
 
 class Config(dict):
 	def __init__(self, *args, **kwargs):

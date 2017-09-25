@@ -1,5 +1,6 @@
 import sys, json
-import click, py
+import click
+import py
 
 from config import pass_config
 
