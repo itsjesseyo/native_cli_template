@@ -1,1 +1,1 @@
-pyinstaller --onefile {{cookiecutter.project_name}}/main.py --osx-bundle-identifier={{cookiecutter.reverse_domain_id}}
+pyinstaller --onefile main.py --osx-bundle-identifier={{cookiecutter.reverse_domain_id}}
