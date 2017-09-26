@@ -1,6 +1,10 @@
 import sys, json
 import click
 import py
+from py import _std
+from py import _path
+from py._path import local
+from py import _error
 
 class Config(dict):
 	def __init__(self, *args, **kwargs):
